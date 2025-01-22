@@ -8,10 +8,7 @@
   },
   "customizations": {
     "vscode": {
-      "extensions": [
-        "editorconfig.editorconfig",
-        "redhat.vscode-yaml"
-      ],
+      "extensions": ["editorconfig.editorconfig", "redhat.vscode-yaml"],
       "settings": {
         "editor.defaultFormatter": "trunk.io"
       }

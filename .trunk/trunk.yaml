@@ -21,3 +21,7 @@ actions:
   definitions:
     - id: commitlint
       run_from: .trunk/configs
+
+lint:
+  enabled:
+    - prettier@3.4.2
