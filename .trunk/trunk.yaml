@@ -25,3 +25,4 @@ actions:
 lint:
   enabled:
     - prettier@3.4.2
+    - yamllint@1.35.1
