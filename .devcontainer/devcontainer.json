@@ -4,5 +4,12 @@
     "ghcr.io/devcontainers/features/common-utils:2.5.2": {
       "configureZshAsDefaultShell": true
     }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "editorconfig.editorconfig"
+      ]
+    }
   }
 }
