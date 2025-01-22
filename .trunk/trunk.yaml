@@ -13,7 +13,11 @@ plugins:
 
 actions:
   enabled:
+    - commitlint
     - trunk-check-pre-commit
     - trunk-check-pre-push
     - trunk-fmt-pre-commit
     - trunk-upgrade-available
+  definitions:
+    - id: commitlint
+      run_from: .trunk/configs
