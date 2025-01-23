@@ -50,4 +50,5 @@ lint:
           - fs-secret
     - trufflehog@3.88.2
     - trufflehog-git@3.88.2
+    - trunk-toolbox@0.5.4
     - yamllint@1.35.1
