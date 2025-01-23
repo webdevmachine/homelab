@@ -24,5 +24,6 @@ actions:
 
 lint:
   enabled:
+    - git-diff-check
     - prettier@3.4.2
     - yamllint@1.35.1
