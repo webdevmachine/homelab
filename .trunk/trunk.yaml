@@ -15,6 +15,7 @@ actions:
   enabled:
     - commitlint
     - trufflehog-pre-commit
+    - trunk-announce
     - trunk-check-pre-commit
     - trunk-check-pre-push
     - trunk-fmt-pre-commit
@@ -25,7 +26,7 @@ actions:
 
 lint:
   enabled:
-    - checkov@3.2.354
+    - checkov@3.2.356
     - cspell@8.17.2
     - git-diff-check
     - gitleaks@8.23.1
@@ -54,3 +55,8 @@ lint:
     - trufflehog-git@3.88.2
     - trunk-toolbox@0.5.4
     - yamllint@1.35.1
+runtimes:
+  enabled:
+    - go@1.21.0
+    - node@18.20.5
+    - python@3.10.8
