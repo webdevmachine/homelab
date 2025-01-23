@@ -8,7 +8,7 @@
   },
   "customizations": {
     "vscode": {
-      "extensions": ["editorconfig.editorconfig", "redhat.vscode-yaml"],
+      "extensions": ["editorconfig.editorconfig", "redhat.vscode-yaml", "tamasfe.even-better-toml"],
       "settings": {
         "editor.defaultFormatter": "trunk.io"
       }
