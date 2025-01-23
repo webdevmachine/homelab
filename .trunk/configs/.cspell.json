@@ -3,6 +3,6 @@
   "version": "0.2",
   "suggestionsTimeout": 5000,
   "language": "en-US",
-  "dictionaries": ["cpp", "npm"],
+  "dictionaries": ["bash", "cpp", "docker", "git", "npm", "terraform"],
   "words": ["tamasfe", "taplo"]
 }
