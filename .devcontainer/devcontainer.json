@@ -4,11 +4,32 @@
     "ghcr.io/devcontainers/features/common-utils:2.5.2": {
       "configureZshAsDefaultShell": true
     },
+    "ghcr.io/devcontainers-extra/features/consul-asdf:2.0.15": {
+      "version": "1.20.2"
+    },
+    "ghcr.io/devcontainers-extra/features/nomad-asdf:2.0.14": {
+      "version": "1.9.5"
+    },
+    "ghcr.io/devcontainers-extra/features/packer-asdf:2.0.14": {
+      "version": "1.11.2"
+    },
+    "ghcr.io/devcontainers-extra/features/terraform-asdf:2.0.14": {
+      "version": "1.10.4"
+    },
+    "ghcr.io/devcontainers-extra/features/vault-asdf:2.0.14": {
+      "version": "1.18.3"
+    },
     "ghcr.io/trunk-io/devcontainer-feature/trunk:1.1.0": {}
   },
   "customizations": {
     "vscode": {
-      "extensions": ["editorconfig.editorconfig", "redhat.vscode-yaml", "tamasfe.even-better-toml"],
+      "extensions": [
+        "editorconfig.editorconfig",
+        "hashicorp.terraform",
+        "hashicorp.hcl",
+        "redhat.vscode-yaml",
+        "tamasfe.even-better-toml"
+      ],
       "settings": {
         "editor.defaultFormatter": "trunk.io"
       }
