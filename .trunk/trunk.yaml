@@ -25,5 +25,6 @@ actions:
 lint:
   enabled:
     - git-diff-check
+    - gitleaks@8.23.1
     - prettier@3.4.2
     - yamllint@1.35.1
