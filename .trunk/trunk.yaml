@@ -46,6 +46,10 @@ lint:
     - prettier@3.4.2
     - semgrep@1.104.0
     - taplo@0.9.3
+    - terraform:
+        commands:
+          - validate
+          - fmt
     - trivy@0.58.2:
         commands:
           - config
