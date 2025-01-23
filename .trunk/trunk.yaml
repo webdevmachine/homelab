@@ -43,6 +43,7 @@ lint:
           - mixed-line-endings
           - trailing-whitespace
     - prettier@3.4.2
+    - semgrep@1.104.0
     - trivy@0.58.2:
         commands:
           - config
