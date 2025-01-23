@@ -41,4 +41,9 @@ lint:
           - mixed-line-endings
           - trailing-whitespace
     - prettier@3.4.2
+    - trivy@0.58.2:
+        commands:
+          - config
+          - fs-vuln
+          - fs-secret
     - yamllint@1.35.1
