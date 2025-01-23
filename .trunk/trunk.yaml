@@ -25,6 +25,7 @@ actions:
 
 lint:
   enabled:
+    - checkov@3.2.354
     - cspell@8.17.2
     - git-diff-check
     - gitleaks@8.23.1
