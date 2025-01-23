@@ -14,6 +14,7 @@ plugins:
 actions:
   enabled:
     - commitlint
+    - trufflehog-pre-commit
     - trunk-check-pre-commit
     - trunk-check-pre-push
     - trunk-fmt-pre-commit
@@ -46,4 +47,6 @@ lint:
           - config
           - fs-vuln
           - fs-secret
+    - trufflehog@3.88.2
+    - trufflehog-git@3.88.2
     - yamllint@1.35.1
