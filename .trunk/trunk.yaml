@@ -26,5 +26,18 @@ lint:
   enabled:
     - git-diff-check
     - gitleaks@8.23.1
+    - pre-commit-hooks@5.0.0:
+        commands:
+          - end-of-file-fixer
+          - check-added-large-files
+          - check-case-conflict
+          - check-merge-conflict
+          - check-shebang-scripts-are-executable
+          - check-symlinks
+          - check-vcs-permalinks
+          - destroyed-symlinks
+          - detect-private-keys
+          - mixed-line-endings
+          - trailing-whitespace
     - prettier@3.4.2
     - yamllint@1.35.1
