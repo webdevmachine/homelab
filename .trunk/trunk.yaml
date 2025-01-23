@@ -50,6 +50,7 @@ lint:
         commands:
           - validate
           - fmt
+    - tflint@0.55.0
     - trivy@0.58.2:
         commands:
           - config
